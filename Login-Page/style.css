@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    
+
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 2px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.btn1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 180px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.checkbox {
+    margin: 10px 0;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    text-align: center;
+}
+img{
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
