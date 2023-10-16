@@ -13,7 +13,7 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     height: 82vh;
-    background-image: linear-gradient(45deg, green, transparent);
+   background-image: linear-gradient(45deg, #53b653, transparent);
 }
 input[type="text"] {
     width: 97%;
